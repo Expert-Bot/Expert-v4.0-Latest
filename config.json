@@ -1,0 +1,36 @@
+{
+      "developerGuild": "Your Guild ",
+    "activityInterval": 5,
+    "botErrorColor": "",
+    "token":"",
+    "mongodb": "",
+  "OPENAI_ORG": "your openai org",
+    "auth": "Ignore this",
+  "api": "chat bot api",
+"apiKey": "ignore this",
+  "BrainShopAPI": "BrainShopAPI",
+  "OPENAI_ORG": "OPENAI_ORG",
+  "apiKey": "",
+  "Setup": {
+    "SIGHT_ENGINE_APIKEY": "z99nc478ZTCRwa4LH7aE",
+    "SIGHT_ENGINE_APIUSER": "1113147466",
+          "PREFIX": "?"
+  },
+    "prodia": "9bc78460-8c64-4ea0-af35-d77dde7ec92d",
+"color": {
+        "embed": "#2f3136",
+        "no": "#FA0000",
+        "yes": "#00FF00"
+    },
+    "chatbot": {
+        "channelID": "1101154393291763732" 
+},
+ "TOPGG": {
+    "TOKEN": "",
+    "WEBHOOK_AUTH": "",
+    "WEBHOOK_PORT": "3000",
+    "VOTE_LOG_CHANNEL": "",
+    "VOTE_REWARD_ROLE": "",
+	"webhookUrl": ""
+  }
+}
