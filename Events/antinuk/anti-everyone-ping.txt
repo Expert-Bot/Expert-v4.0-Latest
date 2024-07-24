@@ -1,0 +1,24 @@
+module.exports = {
+    name: 'messageCreate',
+    async execute(message, client) {
+        const settings = await client.AntinukeSettingsSchema.findOne({ guildId: message.guild.id });
+
+        if (settings && settings.plugins && settings.plugins.includes('anti-everyone-ping')) {
+            if (message.content.toLowerCase() === '@everyone' || message.content.toLowerCase() === '@here') {
+                if (message.member && message.member.permissions.has('ADMINISTRATOR')) return;
+
+                const interaction = message.interaction;
+                if (interaction && interaction.isCommand()) {
+                    // The message is an interaction command, so we ignore it
+                    return;
+                }
+
+                // Remove the message if it's not from an admin or a command
+                message.delete();
+
+                // Reply to the message author with an error message
+                message.reply({ content: 'You are not allowed to ping everyone/here', ephemeral: true });
+            }
+        }
+    },
+};
