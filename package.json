@@ -25,7 +25,7 @@
     "ffmpeg-static": "^5.2.0",
     "mal-scraper": "^2.13.1",
     "mathjs": "^12.4.1",
-    "mongoose": "^6.0.12",
+    "mongoose": "^6.11.3",
     "musicard": "^1.5.2",
     "natural": "^7.0.1",
     "node-fetch": "^2.6.7",
