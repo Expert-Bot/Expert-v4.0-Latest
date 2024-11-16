@@ -44,17 +44,6 @@ let commandListSchema = new Schema({
     serverinfo: Number,
     userinfo: Number,
 
-    //nsfw
-    fourk: Number, //4k
-    anal: Number,
-    ass: Number,
-    gonewild: Number,
-    hentai: Number,
-    hentaiass: Number,
-    porngif: Number,
-    pussy: Number,
-    thigh: Number,
-
     //owner
     topguild: Number,
 
